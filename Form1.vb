@@ -26,7 +26,7 @@
 
     Private Sub AbrirCodigo_Click(sender As Object, e As EventArgs) Handles AbrirCodigo.Click
         Dim infoCod = New Form2()
-        infoCod.WebBrowser1.Navigate(IO.Directory.GetCurrentDirectory() + "\codigoVBNET.html")
+        infoCod.WebBrowser1.Navigate("https://github.com/pbaezr/Dibujo-Anclaje-Columnas/blob/main/Form1.vb")
         infoCod.ShowDialog()
 
     End Sub
