@@ -28,7 +28,6 @@
         Dim infoCod = New Form2()
         infoCod.WebView22.Source = New Uri("https://github.com/pbaezr/Dibujo-Anclaje-Columnas/blob/main/Form1.vb")
         infoCod.ShowDialog()
-
     End Sub
 
     Private Sub dperno_SelectedIndexChanged(sender As Object, e As EventArgs) Handles dperno.SelectedIndexChanged
