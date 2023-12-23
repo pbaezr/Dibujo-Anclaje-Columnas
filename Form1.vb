@@ -26,7 +26,7 @@
 
     Private Sub AbrirCodigo_Click(sender As Object, e As EventArgs) Handles AbrirCodigo.Click
         Dim infoCod = New Form2()
-        infoCod.WebBrowser1.Navigate("https://raw.githubusercontent.com/pbaezr/Dibujo-Anclaje-Columnas/a85fa05d435f679ff6ab95f5473d1ad652795e26/Form1.vb")
+        infoCod.WebView22.Source = New Uri("https://github.com/pbaezr/Dibujo-Anclaje-Columnas/blob/main/Form1.vb")
         infoCod.ShowDialog()
 
     End Sub
